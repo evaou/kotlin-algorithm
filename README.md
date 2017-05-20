@@ -1,23 +1,16 @@
 # Kotlin Algorithm
-- [Searching Algorithms](#searching-algorithms)
-- [Sorting Algorithms](#sorting-algorithms)
-- [Compression Algorithms](#compression-algorithms)
-- [Encoding Algorithms](#encoding-algorithms)
-- [Geometric Algorithms](#geometric-algorithms)
-- [Pattern Matching Algorithms](#pattern-matching-algorithms)
-- [Parsing Algorithms](#parsing-algorithms)
+An algorithm is a step-by-step procedure to solve a problem
 
-### Searching Algorithms 
+- [Iterative Algorithms](#iterative-algorithms)
+- [Divide-and-Conquer Algorithms](#divide-and-conquer-algorithms)
+- [Greedy Algorithms](#greedy-algorithms)
+- [Back-Tracking Algorithms](#back-tracking-algorithms)
 
-### Sorting Algorithms 
+### Iterative Algorithms 
 
-### Compression Algorithms 
+### Divide-and-Conquer Algorithms 
 
-### Encoding Algorithms 
+### Greedy Algorithms 
 
-### Geometric Algorithms 
-
-### Pattern Matching Algorithms 
-
-### Parsing Algorithms 
+### Back-Tracking Algorithms 
 
