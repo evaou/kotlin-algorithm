@@ -19,7 +19,7 @@ Produce a runnable JAR assembly
 The complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.
 
 ##### Performance from good to bad
-O(Log N), O(N), O(N log N), O(N^2), O(N^3), O(2^N)
+O(Log N), O(N), O(N log N), O(N^2), O(N^3), O(2^N)  
 N: size of a problem  
 
 ### Iterative Algorithms 
