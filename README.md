@@ -26,6 +26,8 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 ### Iterative Algorithms 
 Certain steps are repeated in loops
 
+- Bubble Sort
+
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  
 Three-step process: Divide/Break > Conquer/Solve > Merge/Combine 
