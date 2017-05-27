@@ -12,9 +12,9 @@ An algorithm is a step-by-step procedure to solve a problem.
 ### How to Run Kotlin Program 
 Produce a runnable JAR assembly
 
-    $ cd hello-world
-    $ kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar
-    $ java -jar HelloWorld.jar
+    $ cd bubble-sort 
+    $ kotlinc src/BubbleSort.kt -include-runtime -d BubbleSort.jar
+    $ java -jar BubbleSort.jar
 
 ### Big-Oh Notation
 The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.
@@ -27,6 +27,7 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 Certain steps are repeated in loops
 
 - Bubble Sort
+- Insertion Sort
 
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  

@@ -3,8 +3,7 @@ import java.io.File
 fun readFile(filename: String): IntArray {
     val regex = Regex("\\s")
     val list = File(filename).readText().split(regex)
-    val listSize = list.size
-    val data = IntArray(listSize)
+    val data = IntArray(list.size)
 
     for (i in list.indices) {
         data[i] = Integer.parseInt(list[i])
@@ -26,37 +25,30 @@ fun printArray(data: IntArray, str: String = "") {
     println(")")
 }
 
-fun swap(i: Int, j: Int, data: IntArray): IntArray {
-    val temp = data[i]
-    data[i] = data[j]
-    data[j] = temp
+fun insertionSort(data: IntArray): IntArray {
+    for (i in 1..data.size - 1) {
+        var checkValue = data[i]
+        var checkIndex = i
+
+        while (checkIndex > 0 && (data[checkIndex-1] > checkValue)) {
+            data[checkIndex] = data[checkIndex - 1]
+            checkIndex--
+        }
+
+        data[checkIndex] = checkValue
+        printArray(data)
+    }
 
     return data
 }
 
-fun insertionSort(data: IntArray): IntArray {
-
-    for (i in 1..data.size - 1) {
-        var temp = data[i]
-        var checkIndex = i
-
-        while (checkIndex > 0) {
-            if (data[checkIndex] < data[checkIndex - 1]) {
-                swap(checkIndex, checkIndex-1, data)
-            }
-            checkIndex--
-        }
-
-        data[checkIndex ] = temp
-    }
-}
-
 fun main(args: Array<String>) {
-    println("Hello, Insertion Sort!")
-
     var data = readFile("input.txt")
 
+    println("Hello, Insertion Sort!")
     printArray(data, "before: ")
+
     data = insertionSort(data)
+
     printArray(data, "after: ")
 }

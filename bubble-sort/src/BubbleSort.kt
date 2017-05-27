@@ -24,29 +24,23 @@ fun bubbleSort(data: IntArray): IntArray {
     return data
 }
 
-fun printArray(array: IntArray, str: String = "") {
+fun printArray(data: IntArray, str: String = "") {
+    print(str + "(")
 
-    if (str.length > 0) {
-        print(str + ": ")
-    }
-    print("(")
-
-    for (i in array.indices) {
+    for (i in data.indices) {
         if (i > 0) {
             print(", ")
         }
-        print(array[i])
+        print(data[i])
     }
 
     println(")")
 }
 
 fun readFile(filename: String): IntArray {
-    val file = File(filename)
     val regex = Regex("\\s")
-
-    var list = file.readText().split(regex)
-    var data: IntArray = IntArray(list.size)
+    val list = File(filename).readText().split(regex)
+    val data = IntArray(list.size)
 
     for (i in list.indices) {
         data[i] = Integer.parseInt(list[i])
@@ -59,9 +53,9 @@ fun main(args: Array<String>) {
     var data = readFile("input.txt")
 
     println("Hello, Bubble Sort!")
-    printArray(data, "before")
+    printArray(data, "before: ")
 
     data = bubbleSort(data)
 
-    printArray(data, "after")
+    printArray(data, "after: ")
 }
