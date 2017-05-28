@@ -35,7 +35,7 @@ The problem is divided into smaller sub-problems which are solved independently.
 Three-step process: Divide/Break > Conquer/Solve > Merge/Combine 
 
 - [Merge Sort](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)
-- Quick Sort
+- [Quick Sort](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm)
 - Binary Search
 
 ### Greedy Algorithms 
