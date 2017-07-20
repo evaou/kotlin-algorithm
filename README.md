@@ -26,17 +26,9 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 ### Iterative Algorithms 
 Certain steps are repeated in loops
 
-- [Bubble Sort](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
-
-Compare adjacent elements to bubble up the largest one to the sorted list
-
-- [Insertion Sort](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
-
-Insert an element into the sorted list
-
-- [Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
-
-Select the smallest element and put it in the sorted list
+- [Bubble Sort](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm): Compare adjacent elements to bubble up the largest one to the sorted list
+- [Insertion Sort](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm): Insert an element into the sorted list
+- [Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm): Select the smallest element and put it in the sorted list
 
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  
