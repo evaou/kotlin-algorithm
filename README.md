@@ -39,7 +39,7 @@ Three-step process: Divide/Break > Conquer/Solve > Merge/Combine
 
 - [Merge Sort](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)
 - [Quick Sort](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm):
-Specify a pivot and partition an array into two sub-arrays, one has larger values and the other has smaller values as compared with the pivot
+Partition an array into two sub-arrays, one has larger values and the other has smaller values as compared with the specified pivot
 - Binary Search
 
 ### Greedy Algorithms 
