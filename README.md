@@ -24,11 +24,20 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 *N*: problem size
 
 ##### Time complexity of algorithms
-| Algorithm      | Best   | Worst    | Average  |
-| -------------- | ------ | -------- | -------- |
-| Bubble Sort    | *O(N)* | *O(N^2)* | *O(N^2)* |
-| Insertion Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
-| Selection Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
+| Algorithm            | Best         | Worst        | Average      |
+| -------------------- | ------------ | ------------ | ------------ |
+| Bubble Sort          | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
+| Insertion Sort       | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
+| Selection Sort       | *O(N^2)*     | *O(N^2)*     | *O(N^2)*     |
+| Merge Sort           | *O(N log N)* | *O(N log N)* | *O(N log N)* |
+| Quick Sort           | *O(N log N)* | *O(N^2)*     | *O(N log N)* |
+| Shell Sort           | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
+| Binary Search        | *O(1)*       | *O(log N)*   | *O(log N)*   |
+| Depth First Search   | *O(b^m)*     | *O(b^m)*     | *O(b^m)*     |
+| Breadth First Search | *O(b^d)*     | *O(b^d)*     | *O(b^d)*     |
+
+*m*: the maximum depth of the search tree  
+*d*: the depth of the shallowest solution
 
 ### Iterative Algorithms 
 Certain steps are repeated in loops
