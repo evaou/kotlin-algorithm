@@ -26,13 +26,6 @@ fun printArray(array: IntArray, str: String = "") {
     println()
 }
 
-fun swap(array: IntArray, firstIdx: Int, secondIdx: Int) {
-    val temp = array[firstIdx]
-
-    array[firstIdx] = array[secondIdx]
-    array[secondIdx] = temp
-}
-
 fun insertionSort(array: IntArray) {
     var insertedValue: Int
     var insertedIndex: Int
