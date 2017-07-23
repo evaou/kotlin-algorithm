@@ -18,7 +18,7 @@ Produce a runnable JAR assembly
 
 ### Big-Oh Notation
 - The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.  
-- Space complexity is the additional space the algorithm used, apart from the input data space.
+- The worst case space complexity is the additional space the algorithm used, apart from the input data space.
 
 ##### Time performance from good to bad
 *O(Log N)*, *O(N)*, *O(N log N)*, *O(N^2)*, *O(N^3)*, *O(2^N)*  
@@ -31,7 +31,7 @@ Produce a runnable JAR assembly
 | Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*           |
-| Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            |                  |
+| Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*       |
 | Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                |                  |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              |                  |
 | Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                |                  |
