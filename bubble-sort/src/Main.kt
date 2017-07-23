@@ -34,14 +34,21 @@ fun swap(array: IntArray, firstIdx: Int, secondIdx: Int) {
 }
 
 fun bubbleSort(array: IntArray) {
-    for (i in 1 until array.size) {
-        for (j in 0 until array.size - i) {
-            if (array[j] > array[j+1]) {
-                swap(array, j, j+1)
+    var isSwap = true
+
+    while (isSwap) {
+        isSwap = false
+
+        for (j in 1 until array.size) {
+            if (array[j] < array[j-1]) {
+                swap(array, j, j-1)
+                isSwap = true
             }
         }
 
-        printArray(array)
+        if (isSwap) {
+            printArray(array)
+        }
     }
 }
 

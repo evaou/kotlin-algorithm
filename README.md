@@ -17,8 +17,8 @@ Produce a runnable JAR assembly
     $ java -jar BubbleSort.jar
 
 ### Big-Oh Notation
-The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.  
-Space complexity is the additional space the algorithm used, apart from the input data space.
+- The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.  
+- Space complexity is the additional space the algorithm used, apart from the input data space.
 
 ##### Time performance from good to bad
 *O(Log N)*, *O(N)*, *O(N log N)*, *O(N^2)*, *O(N^3)*, *O(2^N)*  
