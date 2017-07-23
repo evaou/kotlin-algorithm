@@ -5,9 +5,9 @@ An algorithm is a step-by-step procedure to solve a problem.
 - [Big-Oh Notation](#big-oh-notation)
 - [Iterative Algorithms](#iterative-algorithms)
 - [Divide-and-Conquer Algorithms](#divide-and-conquer-algorithms)
+- [Back-Tracking Algorithms](#back-tracking-algorithms)
 - [Greedy Algorithms](#greedy-algorithms)
 - [Dynamic Algorithms](#dynamic-algorithms)
-- [Back-Tracking Algorithms](#back-tracking-algorithms)
 
 ### How to Run Kotlin Program 
 Produce a runnable JAR assembly
@@ -21,7 +21,15 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 
 ##### Performance from good to bad
 *O(Log N)*, *O(N)*, *O(N log N)*, *O(N^2)*, *O(N^3)*, *O(2^N)*  
-*N*: size of a problem  
+*N*: problem size
+
+##### Time complexity of algorithms
+| Algorithm |  | Time Complexity |  |
+|  | Best | Worst | Average |
+| --- | --- | --- | --- |
+| Bubble Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
+| Insertion Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
+| Selection Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
 
 ### Iterative Algorithms 
 Certain steps are repeated in loops
