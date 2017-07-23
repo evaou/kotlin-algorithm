@@ -29,7 +29,7 @@ Produce a runnable JAR assembly
 | -------------------- | -------------------- | --------------------- | ----------------------- | ---------------- |
 | Bubble Sort          | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
-| Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                |                  |
+| Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            |                  |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            |                  |
 | Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                |                  |
