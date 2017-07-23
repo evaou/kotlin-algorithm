@@ -46,6 +46,14 @@ Divide an array into smaller sub-arrays with equal interval and then sort them w
 - [Binary Search](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm):
 Halve the searchable items by comparing middle one of an sorted array
 
+### Back-Tracking Algorithms 
+All possible solutions are explored and the steps are traced back.
+
+- [Depth First Search](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm):
+Traverse a graph deeply and use a stack to get next vertex for new iterative search
+- [Breadth First Search](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm):
+Traverse a graph widely and use a queue to get next vertex for new iterative search
+
 ### Greedy Algorithms 
 An immediately available best solution at each step is chosen.
 
@@ -59,10 +67,4 @@ The problem is divided into smaller overlapping sub-problems which are solved by
 - Fibonacci Number
 - Knapsack Problem
 - Tower of Hanoi
-
-### Back-Tracking Algorithms 
-All possible solutions are explored and the steps are traced back.
-
-- Depth First Search
-- Breadth First Search
 
