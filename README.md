@@ -24,10 +24,9 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 *N*: problem size
 
 ##### Time complexity of algorithms
-| Algorithm |  | Time Complexity |  |
-|  | Best | Worst | Average |
-| --- | --- | --- | --- |
-| Bubble Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
+| Algorithm      | Best   | Worst    | Average  |
+| -------------- | ------ | -------- | -------- |
+| Bubble Sort    | *O(N)* | *O(N^2)* | *O(N^2)* |
 | Insertion Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
 | Selection Sort | *O(N)* | *O(N^2)* | *O(N^2)* |
 
