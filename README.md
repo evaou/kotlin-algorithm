@@ -26,7 +26,7 @@ Produce a runnable JAR assembly
 
 ##### Algorithm complexity
 | Algorithm            | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Space Complexity |
-| -------------------- | -------------------- | --------------------- | ----------------------- | ---------------- |
+| :------------------: | :------------------: | :-------------------: | :---------------------: | :--------------: |
 | Bubble Sort          | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
