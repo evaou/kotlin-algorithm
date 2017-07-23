@@ -17,24 +17,25 @@ Produce a runnable JAR assembly
     $ java -jar BubbleSort.jar
 
 ### Big-Oh Notation
-The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.
+The worst case time complexity of an algorithm is *O(f(N))* which means its running time varies in proportion to a growth-rate function *f(N)*.  
+Space complexity is the additional space the algorithm used, apart from the input data space.
 
-##### Performance from good to bad
+##### Time performance from good to bad
 *O(Log N)*, *O(N)*, *O(N log N)*, *O(N^2)*, *O(N^3)*, *O(2^N)*  
 *N*: problem size
 
-##### Time complexity of algorithms
-| Algorithm            | Best         | Worst        | Average      |
-| -------------------- | ------------ | ------------ | ------------ |
-| Bubble Sort          | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
-| Insertion Sort       | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
-| Selection Sort       | *O(N^2)*     | *O(N^2)*     | *O(N^2)*     |
-| Merge Sort           | *O(N log N)* | *O(N log N)* | *O(N log N)* |
-| Quick Sort           | *O(N log N)* | *O(N^2)*     | *O(N log N)* |
-| Shell Sort           | *O(N)*       | *O(N^2)*     | *O(N^2)*     |
-| Binary Search        | *O(1)*       | *O(log N)*   | *O(log N)*   |
-| Depth First Search   | *O(b^m)*     | *O(b^m)*     | *O(b^m)*     |
-| Breadth First Search | *O(b^d)*     | *O(b^d)*     | *O(b^d)*     |
+##### Algorithm complexity
+| Algorithm            | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Space Complexity |
+| -------------------- | -------------------- | --------------------- | ----------------------- | ---------------- |
+| Bubble Sort          | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
+| Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                |                  |
+| Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                |                  |
+| Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            |                  |
+| Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            |                  |
+| Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                |                  |
+| Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              |                  |
+| Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                |                  |
+| Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                |                  |
 
 *b*: the branching factor  
 *m*: the maximum depth of the search tree  
