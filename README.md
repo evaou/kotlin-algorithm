@@ -40,10 +40,11 @@ Three-step process: Divide/Break > Conquer/Solve > Merge/Combine
 - [Merge Sort](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm):
 Divide an array into two equal sub-arrays and then combine them in a sorted manner
 - [Quick Sort](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm):
-Partition an array into two sub-arrays, one has larger values and the other has smaller values as compared with the specified pivot. 
+Partition an array into two sub-arrays, one has larger values and the other has smaller values as compared with the specified pivot
 - [Shell Sort](https://www.tutorialspoint.com/data_structures_algorithms/shell_sort_algorithm.htm): 
 Divide an array into smaller sub-arrays with equal interval and then sort them with insertion sort
 - [Binary Search](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm):
+Halve the searchable items by comparing middle one of an sorted array
 
 ### Greedy Algorithms 
 An immediately available best solution at each step is chosen.
