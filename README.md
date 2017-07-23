@@ -35,6 +35,7 @@ The worst case time complexity of an algorithm is *O(f(N))* which means its runn
 | Binary Search        | *O(1)*       | *O(log N)*   | *O(log N)*   |
 | Depth First Search   | *O(b^m)*     | *O(b^m)*     | *O(b^m)*     |
 | Breadth First Search | *O(b^d)*     | *O(b^d)*     | *O(b^d)*     |
+
 *b*: the branching factor  
 *m*: the maximum depth of the search tree  
 *d*: the depth of the shallowest solution
