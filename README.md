@@ -32,7 +32,7 @@ Produce a runnable JAR assembly
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*           |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*       |
-| Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                |                  |
+| Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*           |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              |                  |
 | Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                |                  |
 | Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                |                  |
