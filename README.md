@@ -95,12 +95,13 @@ Can increase or decrease size
 Fixed size with the same type
 - [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
 Allow operation at one end only, LIFO (Last In First Out)
-- Queue
+- [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): 
+Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
 
 ##### Data structure complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | Array          | *O(1)*         | *O(N)*         | *O(N)*         | *O(N)*         | *O(N)*         |
 | Stack          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
-| Queue          |                |                |                |                |                |
+| Queue          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
 
