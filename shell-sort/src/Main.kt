@@ -1,7 +1,6 @@
 import java.io.File
 import java.util.Scanner
 
-
 fun readFile(filename: String): IntArray {
     val file = File(filename)
     val input = Scanner(file)
@@ -24,13 +23,6 @@ fun printArray(array: IntArray, str: String = "") {
     }
 
     println()
-}
-
-fun swap(array: IntArray, firstIdx: Int, secondIdx: Int) {
-    val temp = array[firstIdx]
-
-    array[firstIdx] = array[secondIdx]
-    array[secondIdx] = temp
 }
 
 fun shellSort(array: IntArray) {

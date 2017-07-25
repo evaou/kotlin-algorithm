@@ -1,7 +1,6 @@
 import java.io.File
 import java.util.Scanner
 
-
 fun readFile(filename: String): IntArray {
     val file = File(filename)
     val input = Scanner(file)
