@@ -101,6 +101,6 @@ Allow operation at one end only, LIFO (Last In First Out)
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | Array          | *O(1)*         | *O(N)*         | *O(N)*         | *O(N)*         | *O(N)*         |
-| Stack          |                |                |                |                |                |
+| Stack          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
 | Queue          |                |                |                |                |                |
 
