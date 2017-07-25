@@ -8,6 +8,7 @@ An algorithm is a step-by-step procedure to solve a problem.
 - [Back-Tracking Algorithms](#back-tracking-algorithms)
 - [Greedy Algorithms](#greedy-algorithms)
 - [Dynamic Algorithms](#dynamic-algorithms)
+- [Data Structure](#data-structure)
 
 ### How to Run Kotlin Program 
 Produce a runnable JAR assembly
@@ -85,4 +86,22 @@ The problem is divided into smaller overlapping sub-problems which are solved by
 - Fibonacci Number
 - Knapsack Problem
 - Tower of Hanoi
+
+### Data Structure 
+
+- List: 
+Can increase or decrease size
+- [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm):
+Fixed size with the same type
+- [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
+Allow operation at one end only, LIFO (Last In First Out)
+- Queue
+
+##### Data structure complexity
+| Data Structure | Average Time Complexity |                |                |                | Worst Space Complexity |  
+| :------------: | :---------------------: | :------------: | :------------: | :------------: | :--------------------: |
+|                | **Access**              | **Search**     | **Insertion**  | **Deletion**   |                        |  
+| Array          | *O(1)*                  | *O(N)*         | *O(N)*         | *O(N)*         | *O(N)*                 |
+| Stack          |                         |                |                |                |                        |
+| Queue          |                         |                |                |                |                        |
 
