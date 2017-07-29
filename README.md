@@ -88,9 +88,12 @@ The problem is divided into smaller overlapping sub-problems which are solved by
 - Tower of Hanoi
 
 ### Data Structure 
-
+- Set: 
+Store unordered and non-repeated values
 - List: 
 Can increase or decrease size
+- Map: 
+Store pairs of key and value, each pair maps an unique key to only one value
 - [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm):
 Fixed size with the same type
 - [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
