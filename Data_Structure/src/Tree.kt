@@ -14,11 +14,9 @@ fun buildTree(array: CharArray, idx: Int): Pair<Node<Char>?, Int> {
     var result: Pair<Node<Char>?, Int>
 
     tmpChar = array[++curIdx]
-
     while (tmpChar != ')') {
 
         if (tmpChar == '(') {
-
             result = buildTree(array, curIdx)
             tmpNode = result.first
             curIdx = result.second
@@ -30,7 +28,6 @@ fun buildTree(array: CharArray, idx: Int): Pair<Node<Char>?, Int> {
                 isLeftDone = true
             }
         } else {
-
             curNode = Node(tmpChar)
             isLeftDone = false
         }
