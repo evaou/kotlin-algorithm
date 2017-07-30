@@ -68,7 +68,7 @@ Halve the searchable items by comparing middle one of an sorted array
 ### Back-Tracking Algorithms 
 All possible solutions are explored and the steps are traced back.
 
-- [Depth First Traversal](https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm):
+- [Depth First Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/):
 Traverse a graph deeply and use a stack to get next vertex for new iterative search
 - [Breadth First Traversal](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm):
 Traverse a graph widely and use a queue to get next vertex for new iterative search
