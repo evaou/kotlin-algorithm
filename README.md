@@ -100,6 +100,8 @@ Fixed size with the same type
 Allow operation at one end only, LIFO (Last In First Out)
 - [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): 
 Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
+- [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
+Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
 
 ##### Data structure complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
@@ -107,4 +109,4 @@ Allow operation at both ends, one end is for insertion and the other is for dele
 | Array          | *O(1)*         | *O(N)*         | *O(N)*         | *O(N)*         | *O(N)*         |
 | Stack          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
 | Queue          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
-
+| Binary Search Tree | *O(log N)* | *O(log N)*     | *O(log N)*     | *O(log N)*     | *O(N)*         |
