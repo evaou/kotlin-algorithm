@@ -35,10 +35,10 @@ Produce a runnable JAR assembly
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*             |
 | Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              | *O(1)*                 |
-| Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                |                        |
-| Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                |                        |
+| Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                | *O(bm)*                |
+| Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                | *O(b^d)*               |
 
-*b*: the branching factor  
+*b*: branching factor  
 *m*: the maximum depth of the search tree  
 *d*: the depth of the shallowest solution
 
