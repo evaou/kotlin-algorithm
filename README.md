@@ -70,7 +70,7 @@ All possible solutions are explored and the steps are traced back.
 
 - [Depth First Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/):
 Traverse a graph deeply and use a stack to get next vertex for new iterative search
-- [Breadth First Traversal](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm):
+- [Breadth First Traversal (Level Order Traversal)](http://www.geeksforgeeks.org/level-order-tree-traversal/):
 Traverse a graph widely and use a queue to get next vertex for new iterative search
 
 ### Greedy Algorithms 
