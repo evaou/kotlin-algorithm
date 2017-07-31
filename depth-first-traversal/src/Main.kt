@@ -13,7 +13,7 @@ class Stack<T>(val size: Int) {
 
     fun push(data: Node<T>) {
         if (isFull()) {
-            println("Stack is full and cannot push data.")
+            println("\nStack is full and cannot push data.")
         } else {
             array[++top] = data
         }
@@ -21,7 +21,7 @@ class Stack<T>(val size: Int) {
 
     fun pop(): Node<T>? {
         if (isEmpty()) {
-            println("Stack is empty and cannot pop data.")
+            println("\nStack is empty and cannot pop data.")
             return null
         } else {
             return array[top--]
@@ -30,7 +30,7 @@ class Stack<T>(val size: Int) {
 
     fun peek(): Node<T>? {
         if (isEmpty()) {
-            println("Stack is empty and cannot be peeked")
+            println("\nStack is empty and cannot be peeked")
             return null
         } else {
             return array[top]
@@ -124,33 +124,31 @@ fun printPostOrder(tree: Node<Char>?) {
     printPostOrder(tree.right)
     print(tree.data)
 }
-/*
+
 fun printStackOrder(tree: Node<Char>?, stack: Stack<Char>) {
     var node: Node<Char>? = tree
     var leftNode: Node<Char>?
     var rightNode: Node<Char>?
 
-    do {
-        print(node!!.data)
-        node.isVisited = true
-        stack.push(node)
+    while(node != null) {
+        if (!node.isVisited) {
+            print(node.data)
+            node.isVisited = true
+            stack.push(node)
+        }
 
         leftNode = node.left
         rightNode = node.right
 
-        if (leftNode != null) {
+        if (leftNode != null && !leftNode.isVisited) {
             node = leftNode
-        } else if (rightNode != null) {
+        } else if (rightNode != null && !rightNode.isVisited) {
             node = rightNode
         } else {
             node = stack.pop()
-            leftNode = node?.left
-            rightNode = node?.right
-            if ()
         }
-    } while(node != null)
+    }
 }
-*/
 
 fun main(args: Array<String>) {
     val filename = "input.txt"
@@ -160,6 +158,7 @@ fun main(args: Array<String>) {
     val inputChars = inputStr.toCharArray()
     val result: Pair<Node<Char>?, Int>
     val tree: Node<Char>?
+    val stack = Stack<Char>(inputChars.size)
 
     result = buildTree(inputChars, 0)
     tree = result.first
@@ -176,7 +175,6 @@ fun main(args: Array<String>) {
     print("\npostorder: ")
     printPostOrder(tree)
 
-    val stack = Stack<Char>(inputChars.size)
     print("\nstackorder: ")
-    //printStackOrder(tree, stack)
+    printStackOrder(tree, stack)
 }
