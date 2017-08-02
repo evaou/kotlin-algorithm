@@ -102,6 +102,8 @@ Allow operation at one end only, LIFO (Last In First Out)
 Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
 - [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
 Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
+- [Heap](http://www.geeksforgeeks.org/binary-heap/): 
+Complete binary tree represented as array, max heap has parent value which is greater than or equal to its child value
 
 ##### Data structure complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
@@ -110,3 +112,4 @@ Each node has a maximum of two children, left sub-tree is less than and right su
 | Stack          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
 | Queue          | *O(N)*         | *O(N)*         | *O(1)*         | *O(1)*         | *O(N)*         |
 | Binary Search Tree | *O(log N)* | *O(log N)*     | *O(log N)*     | *O(log N)*     | *O(N)*         |
+| Heap           | *O()*         | *O()*         | *O()*         | *O()*         | *O()*         |
