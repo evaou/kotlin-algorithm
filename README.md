@@ -70,6 +70,9 @@ All possible solutions are explored and the steps are traced back.
 
 - [Depth First Search](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/):
 Traverse a graph deeply and use a stack to get next vertex for new iterative search
+    - Inorder: left, root, right
+    - Preorder: root, left, right
+    - Post: left, right, root
 - [Breadth First Search](http://www.geeksforgeeks.org/level-order-tree-traversal/):
 Traverse a graph widely and use a queue to get next vertex for new iterative search
 
