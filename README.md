@@ -97,11 +97,21 @@ Store unordered and non-repeated values
 Can increase or decrease size
 - Map: 
 Store pairs of key and value, each pair maps an unique key to only one value
-- [HashMap](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/)
-    - to find out an element in a list, the order of lookup is proportional to the lenght of the list
-    - by splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the order of lookup
+- [HashMap](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/): 
+To find out an element in a list, the order of lookup is proportional to the length of the list. By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the order of lookup.
     - **collision** means 2 distinct keys generate the same hash code
     - **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
+    
+##### HashMap vs HashTable
+|| HashMap | HashTable|
+| :-----: | :-----: | :-----: |
+| Synchronized | No | Yes |
+| Thread Safe  | No | Yes |
+| Key/Value | allow one null key and many null values | not allow any null key and value |
+| Application Type | non-threading | multithreading |
+| Iterator Type | Fail fast iterator | Fail safe iterator | 
+| Performance | Fast | Slower | 
+    
 - [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm):
 Fixed size with the same type
 - [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
