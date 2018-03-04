@@ -98,12 +98,11 @@ Can increase or decrease size
 - Map: 
 Store pairs of key and value, each pair maps an unique key to only one value
 - [HashMap](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/): 
-To find out an element in a list, the order of lookup is proportional to the length of the list. By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the order of lookup.
+To find out an element in a list, the lookup order is proportional to the list length. By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the lookup order.
     - **collision** means 2 distinct keys generate the same hash code
     - **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
 - HashTable:
 Hash table uses an array to store data with the unique generated index. Hash function converts a key to an array index, which easily computes and uniformly distributes the keys.
-    - Fast insertion or search
     
 ##### HashMap vs HashTable
 || HashMap | HashTable|
