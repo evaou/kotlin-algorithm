@@ -81,7 +81,12 @@ An immediately available best solution at each step is chosen.
 
 - Travelling Salesman Problem
 - Scheduling Problem
-- Graph Problem
+- [Dijkstra's Shortest Path Algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
+    - find the shortest path from a single source vertex to all other vertices in the given graph
+    - cannot have minus distance
+    - *O(N^2)* 
+- [A* Shortest Path Algorithm](https://www.geeksforgeeks.org/a-search-algorithm/)
+    - better than Dijkstra
 
 ### Dynamic Algorithms 
 The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
