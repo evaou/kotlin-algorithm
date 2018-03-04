@@ -85,8 +85,13 @@ An immediately available best solution at each step is chosen.
     - find the shortest path from a single source vertex to all other vertices in the given graph
     - cannot have minus distance
     - *O(N^2)* 
-- [A* Shortest Path Algorithm](https://www.geeksforgeeks.org/a-search-algorithm/)
+- [A* Search Algorithm](https://www.geeksforgeeks.org/a-search-algorithm/)
     - better than Dijkstra
+    - *f(n) = g(n) + h(n)* <br/>
+      *f(n)*: current node score <br/>
+      *g(n)*: distance from start to current node <br/>
+      *h(n)*: heuristic estimated distance from current to target node <br/> 
+      
 
 ### Dynamic Algorithms 
 The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
