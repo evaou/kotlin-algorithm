@@ -31,9 +31,11 @@ Produce a runnable JAR assembly
 | Bubble Sort          | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
+| Counting Sort        |                      | *O(N + k)*            |                         |                        |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*                 |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*             |
 | Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
+| Radix Sort           |                      | *O(N log B(N))*       |                         |                        |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              | *O(1)*                 |
 | Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                | *O(bm)*                |
 | Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                | *O(b^d)*               |
@@ -41,6 +43,8 @@ Produce a runnable JAR assembly
 *b*: branching factor  
 *m*: the maximum depth of the search tree  
 *d*: the depth of the shallowest solution
+*B*: base to represent the numbers
+*k*: elements are in range from 1 to k
 
 ### Iterative Algorithms 
 Certain steps are repeated in loops
@@ -51,6 +55,8 @@ Compare adjacent elements to bubble up the largest one to the sorted list
 Insert an element into the sorted list
 - [Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm): 
 Select the smallest element and put it in the sorted list
+- [Counting Sort](https://www.geeksforgeeks.org/counting-sort/)
+
 
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  
@@ -64,6 +70,13 @@ Partition an array into two sub-arrays, one has larger values and the other has 
 Divide an array into smaller sub-arrays with equal interval and then sort them with insertion sort
 - [Binary Search](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm):
 Halve the searchable items by comparing middle one of an sorted array
+- Heap Sort
+- [Radix Sort](https://www.geeksforgeeks.org/radix-sort/)
+    - LSD (Least Significant Digit) for small digits
+    - MSD (Most Significant Digit) for large digits
+    - distribution sort
+    - bucket is FIFO
+    - good for range from 1 to n^2
 
 ### Back-Tracking Algorithms 
 All possible solutions are explored and the steps are traced back.
