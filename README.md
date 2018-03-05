@@ -42,9 +42,9 @@ Produce a runnable JAR assembly
 | Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                | *O(b^d)*               |
 
 *b*: branching factor  
-*m*: the maximum depth of the search tree  
-*d*: the depth of the shallowest solution
-*B*: base to represent the numbers
+*m*: the maximum depth of the search tree    
+*d*: the depth of the shallowest solution  
+*B*: base to represent the numbers  
 *k*: elements are in range from 1 to k
 
 ### Iterative Algorithms 
@@ -57,10 +57,9 @@ Insert an element into the sorted list
 - [Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm): 
 Select the smallest element and put it in the sorted list
 - [Heap Sort](https://www.geeksforgeeks.org/heap-sort/)
-Improved selection sort
-Generate heap tree and then switch root and last node to have max heap
+Improved selection sort, generate heap tree and then switch root and last node to have max heap
     - **Heap Tree** is complete binary tree, nodes need to have left and right node except leave nodes
-    - **Max Heap**: parent node value is larger than child node value, root has the latest value
+    - **Max Heap**: parent node value is larger than child node value, root has the largest value
 - [Counting Sort](https://www.geeksforgeeks.org/counting-sort/)
 Use an array with element range size to count element and accumulate count by range order
 - [Radix Sort](https://www.geeksforgeeks.org/radix-sort/)
