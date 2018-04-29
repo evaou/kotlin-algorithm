@@ -111,6 +111,12 @@ An immediately available best solution at each step is chosen.
 ### Dynamic Algorithms 
 The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
 
+- [Kadane's Algorithm](https://www.youtube.com/watch?v=86CQq3pKSUw)
+    - find a contiguous subarray with the maximum sum
+    - brute force solution is to check all possible subarrays, *O(N^2)*
+    - find out the maximum subarray ending at each index and then get the maximum one
+    - local maximum subarray is either current element or current element combined with previous maximum subarray
+    - *O(N)*
 - Fibonacci Number
 - Knapsack Problem
 - Tower of Hanoi
