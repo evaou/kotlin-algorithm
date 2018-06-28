@@ -109,7 +109,8 @@ An immediately available best solution at each step is chosen.
       *h(n)*: heuristic estimated distance from current to target node <br/> 
 
 ### Dynamic Programming 
-The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
+The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result.  
+
     - think top down recursively but solve bottom up
     - use memorization to keep sub answers  
     - save duplicated work and resue it 
