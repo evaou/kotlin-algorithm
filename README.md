@@ -154,10 +154,22 @@ Fixed size with the same type
 Allow operation at one end only, LIFO (Last In First Out)
 - [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): 
 Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
-- [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
-Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
-- [Heap](http://www.geeksforgeeks.org/binary-heap/): 
-Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
+- Tree
+    - [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
+      Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
+    - [Heap](http://www.geeksforgeeks.org/binary-heap/): 
+      Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
+    - Self-Balancing Search Tree: 
+      Assume everything is in main memory
+        - B-Tree
+            - reduce the number of disk access
+            - fat tree
+            - tree height is kept low by puting maximum keys
+            - all leaves are at the same level
+            - key num = disk block size - 1
+            - keys are in increaing order
+        - AVL Tree
+        - Red Black Tree
 
 ##### Data structure complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
