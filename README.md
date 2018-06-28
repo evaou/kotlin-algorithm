@@ -111,10 +111,9 @@ An immediately available best solution at each step is chosen.
 ### Dynamic Programming 
 The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result.  
 
-    - think top down recursively but solve bottom up
-    - use memorization to keep sub answers  
-    - save duplicated work and resue it 
-
+- Think top down recursively but solve bottom up
+- Use memorization to keep sub answers  
+- Save duplicated work and reuse it 
 - [Kadane's Algorithm](https://www.youtube.com/watch?v=86CQq3pKSUw)
     - find a contiguous subarray with the maximum sum
     - brute force solution is to check all possible subarrays, *O(N^2)*
