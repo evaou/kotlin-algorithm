@@ -7,7 +7,7 @@ An algorithm is a step-by-step procedure to solve a problem.
 - [Divide-and-Conquer Algorithms](#divide-and-conquer-algorithms)
 - [Back-Tracking Algorithms](#back-tracking-algorithms)
 - [Greedy Algorithms](#greedy-algorithms)
-- [Dynamic Algorithms](#dynamic-algorithms)
+- [Dynamic Programming](#dynamic-programming)
 - [Data Structure](#data-structure)
 
 ### How to Run Kotlin Program 
@@ -108,8 +108,11 @@ An immediately available best solution at each step is chosen.
       *g(n)*: distance from start to current node <br/>
       *h(n)*: heuristic estimated distance from current to target node <br/> 
 
-### Dynamic Algorithms 
+### Dynamic Programming 
 The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
+    - think top down recursively but solve bottom up
+    - use memorization to keep sub answers  
+    - save duplicated work and resue it 
 
 - [Kadane's Algorithm](https://www.youtube.com/watch?v=86CQq3pKSUw)
     - find a contiguous subarray with the maximum sum
