@@ -7,8 +7,20 @@ An algorithm is a step-by-step procedure to solve a problem.
 - [Divide-and-Conquer Algorithms](#divide-and-conquer-algorithms)
 - [Back-Tracking Algorithms](#back-tracking-algorithms)
 - [Greedy Algorithms](#greedy-algorithms)
-- [Dynamic Programming](#dynamic-programming)
+- [Dynamic Algorithms](#dynamic-algorithms)
 - [Data Structure](#data-structure)
+    - [Array](#array)
+    - [Binary Search Tree](#binary-search-tree)
+    - [Map](#map)
+    - [Hash Map](#hash-map)
+    - [Hash Table](#hash-table)
+    - [Heap](#heap)
+    - [List](#list)
+    - [Linked List](#linked-lists)
+    - [Queue](#queue)
+    - [Set](#set)
+    - [Stack](#stack)
+    - [Tree](#tree)
 
 ### How to Run Kotlin Program 
 Produce a runnable JAR assembly
@@ -108,12 +120,9 @@ An immediately available best solution at each step is chosen.
       *g(n)*: distance from start to current node <br/>
       *h(n)*: heuristic estimated distance from current to target node <br/> 
 
-### Dynamic Programming 
-The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result.  
+### Dynamic Algorithms 
+The problem is divided into smaller overlapping sub-problems which are solved by remembering and using previous solved result .  
 
-- Think top down recursively but solve bottom up
-- Use memorization to keep sub answers  
-- Save duplicated work and reuse it 
 - [Kadane's Algorithm](https://www.youtube.com/watch?v=86CQq3pKSUw)
     - find a contiguous subarray with the maximum sum
     - brute force solution is to check all possible subarrays, *O(N^2)*
@@ -125,20 +134,29 @@ The problem is divided into smaller overlapping sub-problems which are solved by
 - Tower of Hanoi
 
 ### Data Structure 
-- Set: 
-Store unordered and non-repeated values
-- List: 
-Can increase or decrease size
-- Map: 
+
+#### [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm)
+Hold a fix number of items with the same type
+
+#### [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm)
+Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
+
+#### Map 
 Store pairs of key and value, each pair maps an unique key to only one value
-- [HashMap](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/): 
-To find out an element in a list, the lookup order is proportional to the list length. By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the lookup order.
-    - **collision** means 2 distinct keys generate the same hash code
-    - **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
-- HashTable:
-Hash table uses an array to store data with the unique generated index. Hash function converts a key to an array index, which easily computes and uniformly distributes the keys.
+
+#### [Hash Map](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/)
+To find out an element in a list, the lookup order is proportional to the list length. 
+By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the lookup order.
+- **collision** means 2 distinct keys generate the same hash code
+- **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
     
-##### HashMap vs HashTable
+#### Hash Table
+**Hash table** uses an array to store data with the unique generated index.
+**Hash function** converts a key to an array index, 
+which easily computes and uniformly distributes the keys.
+- Fast insertion or search
+
+##### Hash Map vs Hash Table
 || HashMap | HashTable|
 | :-----: | :-----: | :-----: |
 | Synchronized | No | Yes |
@@ -147,29 +165,36 @@ Hash table uses an array to store data with the unique generated index. Hash fun
 | Application Type | non-threading | multithreading |
 | Iterator Type | Fail fast iterator | Fail safe iterator | 
 | Performance | Fast | Slower | 
-    
-- [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm):
-Fixed size with the same type
-- [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
-Allow operation at one end only, LIFO (Last In First Out)
-- [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm): 
+
+#### [Heap](http://www.geeksforgeeks.org/binary-heap/)
+Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
+
+#### List
+Add/remove element and check if the list contains certain element
+
+#### Linked List
+A linked list is represented by a pointer to the first node called **head**.
+Each node contains a **data** and a pointer to the **next** node. 
+The last node is **null**.
+- Dynamic size
+- Easy to insert or delete node
+- No random access
+- Extra memory for pointer
+
+#### [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
 Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
-- Tree
-    - [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
-      Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
-    - [Heap](http://www.geeksforgeeks.org/binary-heap/): 
-      Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
-    - Self-Balancing Search Tree: 
-      Assume everything is in main memory
-        - B-Tree
-            - reduce the number of disk access
-            - fat tree
-            - tree height is kept low by puting maximum keys
-            - all leaves are at the same level
-            - key num = disk block size - 1
-            - keys are in increaing order
-        - AVL Tree
-        - Red Black Tree
+
+#### Set
+Store unordered and non-repeated values
+
+#### [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm)
+Allow operation at one end only, LIFO (Last In First Out)
+
+#### Tree
+The topmost node is called **root**. 
+**Parent** and **children** nodes are directly above or under each other.
+The node which has no children is called **leave**.
+- Hierarchical data
 
 ##### Data structure complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
