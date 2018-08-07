@@ -172,7 +172,7 @@ Allow operation at one end only, LIFO (Last In First Out)
 The topmost node is called **root**. 
 **Parent** and **children** nodes are directly above or under each other.
 The node which has no children is called **leave**.
-- Hierarchical data
+    - Hierarchical data
 
 #### Hash Map vs Hash Table
 || HashMap | HashTable|
