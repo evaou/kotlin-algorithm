@@ -9,18 +9,6 @@ An algorithm is a step-by-step procedure to solve a problem.
 - [Greedy Algorithms](#greedy-algorithms)
 - [Dynamic Algorithms](#dynamic-algorithms)
 - [Data Structure](#data-structure)
-    - [Array](#array)
-    - [Binary Search Tree](#binary-search-tree)
-    - [Map](#map)
-    - [Hash Map](#hash-map)
-    - [Hash Table](#hash-table)
-    - [Heap](#heap)
-    - [List](#list)
-    - [Linked List](#linked-lists)
-    - [Queue](#queue)
-    - [Set](#set)
-    - [Stack](#stack)
-    - [Tree](#tree)
 
 ### How to Run Kotlin Program 
 Produce a runnable JAR assembly
@@ -135,28 +123,58 @@ The problem is divided into smaller overlapping sub-problems which are solved by
 
 ### Data Structure 
 
-#### [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm)
+- [Array](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm):
 Hold a fix number of items with the same type
 
-#### [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm)
+- [Binary Search Tree](https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm):
 Each node has a maximum of two children, left sub-tree is less than and right sub-tree is greater than its parent
 
-#### Map 
+- Map: 
 Store pairs of key and value, each pair maps an unique key to only one value
 
-#### [Hash Map](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/)
+- [Hash Map](https://www.linkedin.com/pulse/10-things-java-developer-should-know-hashmap-chinmay-parekh/):
 To find out an element in a list, the lookup order is proportional to the list length. 
 By splitting the list into multiple mini-lists and quickly telling which mini-list has the element, HashMap builds an array of mini-lists to greatly reduce the lookup order.
-- **collision** means 2 distinct keys generate the same hash code
-- **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
+    - **collision** means 2 distinct keys generate the same hash code
+    - **HashMap resizing** is time consuming, which will double the size and move chunk of data to new space
     
-#### Hash Table
+- Hash Table:
 **Hash table** uses an array to store data with the unique generated index.
 **Hash function** converts a key to an array index, 
 which easily computes and uniformly distributes the keys.
-- Fast insertion or search
+    - Fast insertion or search
 
-##### Hash Map vs Hash Table
+- [Heap](http://www.geeksforgeeks.org/binary-heap/):
+Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
+
+- List:
+Add/remove element and check if the list contains certain element
+
+- Linked List:
+A linked list is represented by a pointer to the first node called **head**.
+Each node contains a **data** and a pointer to the **next** node. 
+The last node is **null**.
+    - Dynamic size
+    - Easy to insert or delete node
+    - No random access
+    - Extra memory for pointer
+
+- [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm):
+Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
+
+- Set:
+Store unordered and non-repeated values
+
+- [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm):
+Allow operation at one end only, LIFO (Last In First Out)
+
+- Tree:
+The topmost node is called **root**. 
+**Parent** and **children** nodes are directly above or under each other.
+The node which has no children is called **leave**.
+- Hierarchical data
+
+#### Hash Map vs Hash Table
 || HashMap | HashTable|
 | :-----: | :-----: | :-----: |
 | Synchronized | No | Yes |
@@ -166,37 +184,7 @@ which easily computes and uniformly distributes the keys.
 | Iterator Type | Fail fast iterator | Fail safe iterator | 
 | Performance | Fast | Slower | 
 
-#### [Heap](http://www.geeksforgeeks.org/binary-heap/)
-Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
-
-#### List
-Add/remove element and check if the list contains certain element
-
-#### Linked List
-A linked list is represented by a pointer to the first node called **head**.
-Each node contains a **data** and a pointer to the **next** node. 
-The last node is **null**.
-- Dynamic size
-- Easy to insert or delete node
-- No random access
-- Extra memory for pointer
-
-#### [Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
-Allow operation at both ends, one end is for insertion and the other is for deletion, FIFO (First In First Out)
-
-#### Set
-Store unordered and non-repeated values
-
-#### [Stack](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm)
-Allow operation at one end only, LIFO (Last In First Out)
-
-#### Tree
-The topmost node is called **root**. 
-**Parent** and **children** nodes are directly above or under each other.
-The node which has no children is called **leave**.
-- Hierarchical data
-
-##### Data structure complexity
+#### Complexity
 | Data Structure | Average Time Complexity - Access | Average Time Complexity - Search | Average Time Complexity - Insertion | Average Time Complexity - Deletion | Worst Space Complexity |  
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | Array          | *O(1)*         | *O(N)*         | *O(N)*         | *O(N)*         | *O(N)*         |
