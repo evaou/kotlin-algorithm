@@ -61,7 +61,7 @@ Improved selection sort, generate heap tree and then switch root and last node t
     - **Heap Tree** is complete binary tree, nodes need to have left and right node except leave nodes
     - **Max Heap**: parent node value is larger than child node value, root has the largest value
 - [Counting Sort](https://www.geeksforgeeks.org/counting-sort/)
-Use an array with element range size to count element and accumulate count by range order
+Use keys (element range size) as array indexes to count element and accumulate count by range order
 - [Radix Sort](https://www.geeksforgeeks.org/radix-sort/)
 Distribute element into digit buckets and output element by bucket and the original order
     - LSD (Least Significant Digit) for small digits
