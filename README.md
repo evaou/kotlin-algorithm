@@ -31,11 +31,13 @@ Produce a runnable JAR assembly
 | Bubble Sort          | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Insertion Sort       | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
-| Heap Sort            | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(1)*                 |
 | Counting Sort        |                      | *O(N + k)*            |                         |                        |
 | Radix Sort           |                      | *O(N log B(N))*       |                         |                        |
+| **Comparison Based** | | | | |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*                 |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*             |
+| Heap Sort            | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(1)*                 |
+| | | | | |
 | Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              | *O(1)*                 |
 | Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                | *O(bm)*                |
@@ -67,6 +69,8 @@ Distribute element into digit buckets and output element by bucket and the origi
     - LSD (Least Significant Digit) for small digits
     - MSD (Most Significant Digit) for large digits
     - good for large element range from 1 to n^2
+- [Bucket Sort](https://www.geeksforgeeks.org/bucket-sort-2/)
+Input is uniformly distributed over a range
 
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  
