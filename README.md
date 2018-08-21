@@ -33,7 +33,7 @@ Produce a runnable JAR assembly
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Counting Sort        |                      | *O(N + k)*            |                         |                        |
 | Radix Sort           |                      | *O(N log B(N))*       |                         |                        |
-| **Comparison Based** | | | | |
+| **Comparison Based** | 
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*                 |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*             |
 | Heap Sort            | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(1)*                 |
