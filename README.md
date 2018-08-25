@@ -33,12 +33,14 @@ Produce a runnable JAR assembly
 | Selection Sort       | *O(N^2)*             | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Counting Sort        |                      | *O(N + k)*            |                         |                        |
 | Radix Sort           |                      | *O(N log B(N))*       |                         |                        |
+| Bucket Sort          | *O(N)*               |                       |                         |                        |
+| Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
+| | | | | |
 | **Comparison Based** | |  |  |  |
 | Merge Sort           | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(N)*                 |
 | Quick Sort           | *O(N log N)*         | *O(N^2)*              | *O(N log N)*            | *O(log N)*             |
 | Heap Sort            | *O(N log N)*         | *O(N log N)*          | *O(N log N)*            | *O(1)*                 |
 | | | | | |
-| Shell Sort           | *O(N)*               | *O(N^2)*              | *O(N^2)*                | *O(1)*                 |
 | Binary Search        | *O(1)*               | *O(log N)*            | *O(log N)*              | *O(1)*                 |
 | Depth First Search   | *O(b^m)*             | *O(b^m)*              | *O(b^m)*                | *O(bm)*                |
 | Breadth First Search | *O(b^d)*             | *O(b^d)*              | *O(b^d)*                | *O(b^d)*               |
