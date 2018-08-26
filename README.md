@@ -154,6 +154,8 @@ which easily computes and uniformly distributes the keys.
 
 - [Heap](http://www.geeksforgeeks.org/binary-heap/):
 Complete binary tree represented as array, min heap has parent value which is smaller than or equal to its child value
+    - **min Heap** uses default priority queue
+    - **max Heap** needs to override the compare method
 
 - List:
 Add/remove element and check if the list contains certain element
