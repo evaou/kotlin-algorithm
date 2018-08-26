@@ -72,7 +72,9 @@ Distribute element into digit buckets and output element by bucket and the origi
     - MSD (Most Significant Digit) for large digits
     - good for large element range from 1 to n^2
 - [Bucket Sort](https://www.geeksforgeeks.org/bucket-sort-2/)
-Distribute input uniformly into buckets, sort each bucket with insertion sort, and concatenate buckets
+Distribute input into buckets, sort each bucket with insertion sort, and concatenate buckets
+    - input is uniformly distributed over a range, like floating numbers
+    - each bucket contains a list
 
 ### Divide-and-Conquer Algorithms 
 The problem is divided into smaller sub-problems which are solved independently.  
