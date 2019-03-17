@@ -23,16 +23,17 @@ Produce a runnable JAR assembly
 
 ##### Time performance from good to bad
 *N*: size of input data
-| Worst Time Complexity | Name | Scenario |
+
+| Worst Time Complexity | Name                  | Scenario              |
 | :-------------------: | :-------------------: | :-------------------: |
-| *O(1)*                | Constant | | 
-| *O(Log N)*            | Logarithmic | | 
-| *O(N)*                | Linear | one *for* loop | 
-| *O(N + M)*            | Linear | two separate *for* loops | 
-| *O(N log N)*          | Quasilinear | | 
-| *O(N^2)*              | Quadratic | | 
-| *O(N^3)*              |  | | 
-| *O(2^N)*              | Exponential | | 
+| *O(1)*                | Constant              | | 
+| *O(Log N)*            | Logarithmic           | | 
+| *O(N)*                | Linear                | one *for* loop | 
+| *O(N + M)*            | Linear                | two separate *for* loops | 
+| *O(N log N)*          | Quasilinear           | | 
+| *O(N^2)*              | Quadratic             | | 
+| *O(N^3)*              |                       | | 
+| *O(2^N)*              | Exponential           | | 
 
 ##### Algorithm complexity
 | Algorithm            | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Worst Space Complexity |
