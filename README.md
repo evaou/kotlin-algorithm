@@ -31,7 +31,8 @@ Produce a runnable JAR assembly
 | *O(N)*                | Linear                | one *for* loop | 
 | *O(N + M)*            | Linear                | two separate *for* loops | 
 | *O(N log N)*          | Quasilinear           | | 
-| *O(N^2)*              | Quadratic             | | 
+| *O(N^2)*              | Quadratic             | two nested *for* loops| 
+| *O(N \times M)*       |                       | | 
 | *O(N^3)*              |                       | | 
 | *O(2^N)*              | Exponential           | | 
 
