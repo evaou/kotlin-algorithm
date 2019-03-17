@@ -22,8 +22,17 @@ Produce a runnable JAR assembly
 - The worst case space complexity is the additional space the algorithm used, apart from the input data space.
 
 ##### Time performance from good to bad
-*O(Log N)*, *O(N)*, *O(N log N)*, *O(N^2)*, *O(N^3)*, *O(2^N)*  
-*N*: problem size
+*N*: size of input data
+| Worst Time Complexity | Name | Scenario |
+| :-------------------: | :-------------------: | :-------------------: |
+| *O(1)*                | Constant | | 
+| *O(Log N)*            | Logarithmic | | 
+| *O(N)*                | Linear | one *for* loop | 
+| *O(N + M)*            | Linear | two separate *for* loops | 
+| *O(N log N)*          | Quasilinear | | 
+| *O(N^2)*              | Quadratic | | 
+| *O(N^3)*              |  | | 
+| *O(2^N)*              | Exponential | | 
 
 ##### Algorithm complexity
 | Algorithm            | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Worst Space Complexity |
