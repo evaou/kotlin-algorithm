@@ -27,12 +27,12 @@ Produce a runnable JAR assembly
 | Worst Time Complexity | Name                  | Scenario             |
 | :-------------------: | :-------------------: | :------------------- |
 | *O(1)*                | Constant              | | 
-| *O(Log N)*            | Logarithmic           | | 
+| *O(Log N)*            | Logarithmic           | search a sorted array | 
 | *O(N)*                | Linear                | one *for* loop | 
 | *O(N + M)*            | Linear                | two separate *for* loops | 
-| *O(N log N)*          | Quasilinear           | | 
+| *O(N log N)*          | Quasilinear           | best sorting time complexity | 
 | *O(N^2)*              | Quadratic             | two nested *for* loops| 
-| *O(N x M)*       |                       | | 
+| *O(N x M)*            |                       | two separate *for* loops over different collections | 
 | *O(N^3)*              |                       | | 
 | *O(2^N)*              | Exponential           | | 
 
