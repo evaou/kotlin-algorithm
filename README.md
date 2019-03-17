@@ -24,8 +24,8 @@ Produce a runnable JAR assembly
 ##### Time performance from good to bad
 *N*: size of input data
 
-| Worst Time Complexity | Name                  | Scenario              |
-| :-------------------: | :-------------------: | :-------------------: |
+| Worst Time Complexity | Name                  | Scenario             |
+| :-------------------: | :-------------------: | :------------------- |
 | *O(1)*                | Constant              | | 
 | *O(Log N)*            | Logarithmic           | | 
 | *O(N)*                | Linear                | one *for* loop | 
