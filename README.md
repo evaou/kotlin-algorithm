@@ -32,7 +32,7 @@ Produce a runnable JAR assembly
 | *O(N + M)*            | Linear                | two separate *for* loops | 
 | *O(N log N)*          | Quasilinear           | best sorting time complexity | 
 | *O(N^2)*              | Quadratic             | two nested *for* loops| 
-| *O(N x M)*            |                       | two separate *for* loops over different collections | 
+| *O(N x M)*            |                       | two nested *for* loops over different collections |
 | *O(N^3)*              |                       | | 
 | *O(2^N)*              | Exponential           | | 
 
